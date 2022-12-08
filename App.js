@@ -14,6 +14,7 @@ import Ex11 from './screens/week02/Ex11';
 import Ex12 from './screens/week02/Ex12';
 import Welcome from './screens/Welcome';
 import Travel from './screens/week3/Travel';
+import MyIcon from './components/week3/MyIcon';
 export default function App() {
   return (
     <Travel />
