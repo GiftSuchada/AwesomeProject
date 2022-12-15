@@ -16,9 +16,10 @@ import Welcome from './screens/Welcome';
 import Travel from './screens/week3/Travel';
 import MyIcon from './components/week3/MyIcon';
 import Resort from './screens/week4/Resort';
+import Health from './screens/week5/Health';
 export default function App() {
   return (
-    <Resort />
+    <Health />
   );
 }
 
