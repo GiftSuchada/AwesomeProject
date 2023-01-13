@@ -17,9 +17,10 @@ import Travel from './screens/week3/Travel';
 import MyIcon from './components/week3/MyIcon';
 import Resort from './screens/week4/Resort';
 import Health from './screens/week5/Health';
+import Home from './screens/week6/Home';
 export default function App() {
   return (
-    <Health />
+    <Home />
   );
 }
 
