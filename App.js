@@ -22,19 +22,25 @@ import { NavigationContainer } from '@react-navigation/native';
 import HomeStack from './navigations/HomeStack';
 import BottomTab from './navigations/BottomTab';
 import RootStack from './navigations/RootStack';
+import Checkmenu from './screens/week12/Checkmenu';
+import PokemonTab from './navigations/PokemonTab';
+import Myprofile from './screens/week12/Myprofile';
 export default function App() {
   return (
 
     // <Travel />
-    //<Resort />
-    //<Health />
-    //<Home />
-    <NavigationContainer >
-     {/* <HomeStack /> */}
-      {/* <BottomTab /> */}
-      <RootStack />
-    </NavigationContainer>
+    // //<Resort />
+    // //<Health />
+    // //<Home />
+    // <NavigationContainer >
+    //  {/* <HomeStack /> */}
+    //   {/* <BottomTab /> */}
+    //   <RootStack />
+    // </NavigationContainer>
+    
+    <Myprofile />
+  
   );
 }
 
-
+// 
